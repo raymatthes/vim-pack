@@ -1,11 +1,21 @@
 # vim-pack
 
+new machine operations
+```
+cd .vim
+git clone git@github.com:raymatthes/vim-pack.git pack --recursive
+```
+
+
+local operations to add a plugin
 ```
 git submodule add https://github.com/altercation/vim-colors-solarized colors/start/vim-colors-solarized
 
-git submodule add https://github.com/python-mode/python-mode syntax/start/python-mode
-
 git submodule add https://github.com/vim-airline/vim-airline plugins/start/vim-airline
+
+git add -A
+git commit "added plugin"
+git push
 ```
 
 
@@ -18,13 +28,11 @@ git init
 # add as many plugins as you want in the desired
 # package directories
 
-# for example, lets add NERDtree and its git plugin
-# as autoloaded in plugins/ directory
-git submodule add https://github.com/scrooloose/nerdtree plugins/start/nerdtree
-git submodule add https://github.com/Xuyuanp/nerdtree-git-plugin plugins/start/nerdtree-git-plugin
+# add vim-airline as autoloaded in plugins/ directory
+git submodule add https://github.com/vim-airline/vim-airline plugins/start/vim-airline
 
-# lets also add the one color scheme in the colors/ directory
-git submodule add https://github.com/rakr/vim-one.git colors/start/one
+# add the one color scheme in the colors/ directory
+git submodule add https://github.com/altercation/vim-colors-solarized colors/start/vim-colors-solarized
 
 # and optinaly, we want the elixir syntax and compiler tools under syntax/
 git submodule add https://github.com/elixir-lang/vim-elixir syntax/opt/elixir
