@@ -1,9 +1,6 @@
 [submodule "colors/start/vim-colors-solarized"]
 	path = colors/start/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
-[submodule "syntax/start/python-mode"]
-	path = syntax/start/python-mode
-	url = https://github.com/python-mode/python-mode
 [submodule "plugins/start/vim-airline"]
 	path = plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
