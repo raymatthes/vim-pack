@@ -9,6 +9,7 @@ git submodule add https://github.com/vim-airline/vim-airline plugins/start/vim-a
 ```
 
 
+https://medium.com/@paulodiovani/installing-vim-8-plugins-with-the-native-pack-system-39b71c351fea
 ```
 # make the pack folder a git repository
 cd ~/.vim/pack
